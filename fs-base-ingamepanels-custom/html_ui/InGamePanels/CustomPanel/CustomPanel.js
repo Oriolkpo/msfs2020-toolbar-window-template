@@ -16,7 +16,7 @@ class IngamePanelCustomPanel extends HTMLElement {
         console.log('IngamePanelCustomPanel2');
         var iframe = document.querySelector("#CustomPanelIframe");
         if (iframe) {
-            iframe.src = "https://skyvector.com/";
+            iframe.src = "https://webeye.ivao.aero/";
         }
     }
     isDebugEnabled() {
@@ -77,7 +77,7 @@ class IngamePanelCustomPanel extends HTMLElement {
 
         var iframe = document.querySelector("#CustomPanelIframe");
         if (iframe) {
-            iframe.src = "https://skyvector.com/";
+            iframe.src = "https://webeye.ivao.aero/";
         }
         /*this.m_ButtonElement = document.querySelector("#DeviceType");
         this.m_ImageElement = document.getElementById("DeviceImage");
